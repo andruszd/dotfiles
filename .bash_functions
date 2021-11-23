@@ -15,15 +15,15 @@ up()
     cd "$dir";
 }
 
-chmoddr()   
+chmoddr()
 {
   # CHMOD _D_irectory _R_ecursivly
 
   if [ -d "$1" ]; then
-   echo "error: please use the mode first, then the directory";
-   return 1;
+    echo "error: please use the mode first, then the directory";
+    return 1;
   elif [ -d "$2" ]; then
-   find $2 -type d -print0 | xargs -0 chmod $1;
+    find $2 -type d -print0 | xargs -0 chmod $1;
   fi
 }
 

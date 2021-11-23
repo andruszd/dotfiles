@@ -135,7 +135,7 @@ alias ff=ff13
 #my default browser
 alias browser=chrome
 ## set some other defaults ##
-alias df='df -H'
+alias df='df -h'
 alias du='du -ch'
 # top is atop, just like vi is vim
 alias top='atop'
