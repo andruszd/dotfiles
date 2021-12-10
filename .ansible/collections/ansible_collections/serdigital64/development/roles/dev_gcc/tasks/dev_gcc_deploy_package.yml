@@ -1,0 +1,10 @@
+---
+- name: "Development / GCC / Deploy / Package / GIT"
+  vars:
+    core_package:
+      provision: true
+    core_package_application: "{{ dev_gcc_application }}"
+    core_package_profiles: "{{ dev_gcc_profiles }}"
+  ansible.builtin.include_role:
+    name: "serdigital64.core.core_package"
+...

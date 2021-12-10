@@ -1,0 +1,3085 @@
+{
+    "files": [
+        {
+            "name": ".",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "inventory",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "docs",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": ".travis.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "23fc92f0b45fcbcb4d8565712e2726171ffe4ff6765d465d86f70ae8638fc85f",
+            "format": 1
+        },
+        {
+            "name": "requirements.txt",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "21d6bd26752573c657cf3ca3fdd01bf84d16d5d73d4f5fe3f8ce85af9baa4d0a",
+            "format": 1
+        },
+        {
+            "name": "ansible.cfg",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "81db67297c002a14af2c12f9775dc5f55e84a84208dbc393893ed8cdb7d18f63",
+            "format": 1
+        },
+        {
+            "name": "playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c7be88f7f8eaf450664834530456e815f52437407b71b93cfa7d97073e7c53af",
+            "format": 1
+        },
+        {
+            "name": ".yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bad8b7bf0bf050141d9d4e42913fe4ee6f9f32f09b92edcb1b04657ed746eaa3",
+            "format": 1
+        },
+        {
+            "name": "galaxy.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "46ed1c8c174f398b0d8bdd1d4daa93668b321867e2f23ce68c46b0c4c7d52bb8",
+            "format": 1
+        },
+        {
+            "name": "playbook-centos-8.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "70bf142f2eb7d9636ebae94b145cb3d4f474423e25da9da9826fa8b6b805b8a5",
+            "format": 1
+        },
+        {
+            "name": ".gitignore",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "565e96aacdd788ecd00d24d1ba20744dc73cbb93ade8e11fd638d976213ae331",
+            "format": 1
+        },
+        {
+            "name": "bundle.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "48592983ed9307c336802509494b6c757027a25824d236cbfca5906f06b961a9",
+            "format": 1
+        },
+        {
+            "name": "README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "89a56c020ee028fd9e9ccd428c33c011c423d4dec95f690a61567255ff6b837f",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/files",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a969471562d71a9380fa6be6956b8b7ab1a6a1284155e9e287c0e5033ae103d8",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "9e5f2fd66278322c2ef561e7382eb4c621afd74f42cc6b9919026dd282005d3b",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/files/vmware.service",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "883a0757f5178bd11829e05a10f41e749c06c9a53accb8a4696fe24468972945",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/files/vmware-usbarbitrator.service",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "9d4482421df702f9ed8bc272b7c0dfea27fb99aa98830a4be139fdf339a89bf7",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/files/vmware-networks-server.service",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c0a5aea785db06921fb350d36d5e0fd9a14f5eee0c835686ec6fea1af8c92245",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/files/vmware-workstation-server.service",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1c5d74d841299a8216db983a46477ab63664b28bf2a1cad11e3df5d3b771c1c8",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "39443ae497e05ce53e900f4d7bb5fc29941d6073db3ee54376d8aee731f43ff3",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/install_RedHat.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "50aff2358d5947f0e77583e2b6781c2bf057bdd11f101314e7612f462f9c9cb8",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/install_Debian.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "7ea342f1ecbdf3573e7bfe228ee74692561ce0f8aaa3b6e9b4a304af077acd72",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "403b1b4a319c9d5b8283d1f1098a4212a28b247bfb96e52082cd6393fa184522",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/patch_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bf343c23b4c6297caff9ea17db4571479fac9ea48fab1a75d250f6fe911eee31",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "2cdf181dd8d9f1f5ff42efe91c1562d96de32bf4252607258e0c9facc7f6481b",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "289e5fa6337995103cfe95ab1cb653ad79a469c29fed09f81d4c22b179bb2e7a",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/install_VMware.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aedf44d389caafdd77edf2096470037173207dcefbabeb279c20238ab29c22bb",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/tasks/configure.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "3c1a25e2ae719e75a84b9384226ffa7246f0d908105329867d6a2a08f4ee20f8",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "4bd4821d52e8d02e3d531fda9cd686063bd53807562f78fd7ee2cfc2a7aa4d8f",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a33555fe4507c1ed3181de7c2ad11c7d6623072c55c3baf80140c42b9ddb4250",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "20fb920090d3a93a7039ab7d854bb374e0613161a030929ea1252a0d0f095fbf",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5178e4cbe18ac5a985148ffc3ac01dd7d275ecfab4ce74ccbdef3d84cd26f3f4",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "b675c86e2c050b05a14c3f272892a742fc9ddf4656c16ea5241213e167b935c6",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c23b77c44c867eda3ae152537ed7f578cee704e6990a686640a280fab33e8ad6",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e6c419ebe28ccaac5783309a75b68607292a5d97e8781cc825a5a61cbed8ed7d",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "47118d29f989b4bf3819d7cb84a664efc0e80826e618f67c74398ad914bb76e5",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "533c8d3398b5c9c367a9541896e688cedb0709c41a962fb657e036423391ffa5",
+            "format": 1
+        },
+        {
+            "name": "roles/vmware/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ff468e25d6f3212e0a9f20120875615e7f6a501820ce05a12c6f2ee48478e149",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "04607e4a84e3b63b7cc67fa2260f836b733faf1e3d57d27e28195887b798fbad",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6c10c95a732b0622a974f7e0f1312a7c5e478e36b5f0a55032811fba1ad23850",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "664557e0a22679a65282cbaa292dcc5ee7db2186c22a3441a6e2bcd23c158714",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/install_RedHat.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d13aa2654aff91d8b99a816651337482a379c8a9953534afe5c3cc7266b44f37",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/install_Debian.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fb95afa82ca1c3ef946b3a8b49959f671e3a08b0eb62242e068d16c7a29e6842",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1a07651b1cd943c8d512ba4eb46888af7e3448e0e10c3709ae2d96ef161fad7a",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/extensions.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "797e8afa65284e901f19552d6108de455e49c923222540dadbbda9d83582e751",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0bc025e7917dfcc8da988cf728b16697a2b341b4d73ecb19b77948d1fb41e05d",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6a5fc4c12bcbfc1fdbdc9574a115275ae3744d40e8a987a1431b19f712bda24d",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/tasks/configure.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "80a3a49588b92fb36f63e040e3c410197135435a32fc147dea77d46f828f192b",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "967a8bdb72178ae2885e3aaeeb85ef7db3f931e407891ca6d0d0966ad8363b1d",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a2d80ca9fe261f779062fbcda9ec8fee4ad1ed7ff18f5e64b1c6c89a6a851fc9",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "090296b2ae5a92b7d0c7aa8e59c7b56dcdedd615cff8adc1ade769345e21ec21",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "b25fa80c6752c6f9b6ec8b6a60ee97a142acc661da8ffd2219a0c744e1f72273",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fb85273bb17a21d61da1f738a8806e33c24dd7799d67c795bca856e0163d9ac6",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1a2400e36739dd7eb92501d92e5b49dafc45f6229071c41a6aaee60a856daaf9",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1d7f1e3adf909cf5f336ba79d8a5f1917f5648550568fd0c82db5dc17e08d7d5",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "2058e1adfc6825caa0a6241c7d99d037b1733dec762b22a5c2cbafa589162fe8",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "4461e4a9471db5b22bb5aa38e4eaebc81b472b4b3fa59dca4bcc5ab147332487",
+            "format": 1
+        },
+        {
+            "name": "roles/virtualbox/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fd172f5e31cfb545d7056b6755b885bcffffae2bfca1a2301f019099b05a2362",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a43da073b6cbfa040084276d2a5decd159203112a50a348b9dc7fd106bedca0d",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "b6085ac08d5f911de2835d9e0d7da02288b53de37fbec546d4182928c719e8aa",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f83647c662602ddf6fcfb9d82016d1f3b572b9a9845c1536f96b43469e3ff859",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks/install_RedHat.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "58942f7d80761dbd3018af319911f76f61df4467ccee7809c876a559a7d6a349",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "71a97966c1451078d309b56e6e25bcec7b1df0af49292cb75da970d349bbd4e3",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1714f86bde0bf71d4bbfc4a7f80d9a1a808ccc3c859f5319c923a5ef9f3bd98b",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f0a610cee36c41d2e7e8f225bd9e2d2d8a7c13eb5fa7c35f0ec0825263dd1f77",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/tasks/configure.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bf089e2d1646ae3ab8e6820f1b580dbfe449c67e258ca6257aae8562005b8dbf",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "07c11f40735e3051e21f6c1326f0342871303d07b28fa825e354d616269b876e",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6c5a5cb815dd392bca5033695b2739b6b9f9f0a884febc9e6d95c629eab71023",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-centos-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "864eb67e6ff791d8006587031b41225c05cf02cbe19a06dab6028707aaa3b468",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ce0ead3bf21a37e76d8f7e83304bedd4946393428a9283cfc183c2911e96ff0c",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "9c5e10cc19024fd78134c588b9104e13d67d558d4467069554d9d8429ba2160c",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bf2cd466c2615c9afbb248688074f19b75e5c3f77c19772140d2e0772d3edb3f",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d2567a15d38bbde9508756ee043f3a96bbc0f7763f9c13de7d86dc92db189557",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "181604cf795c6d08c139cf3e86aa0a857e353b20d03a83d293ba16e2e42f7d36",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-centos-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c97c1e3378b13b4769d8d49b2b7cdc2ec8edc17fe0c497c1ccb2ba01b4bf8745",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "4d3db1df23077f1ae8c09da5802183b25c4b20487004ffffba2745ce7af7d579",
+            "format": 1
+        },
+        {
+            "name": "roles/podman/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e097694c90a1d5c15dd69b2a673a99e322eace712bbc68aa05d0e72639f451d0",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5dc59374580a0d724a84fb800c1256da0ad07f30522237ce60b2299124429abf",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d80c21cea317909266fd19e66de71bebb1accf29c4378f0febb71ab0a61d9277",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/tasks/VMware.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "7de63c769e759b2ffe73efa6fb55238272e34534c077f890301f5b225e72e4cf",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/tasks/VirtualBox.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "175348421cfa2fb0d2be250714c9d936668688cb5276d2abfb81987ae52c6be2",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d7e7e7f5e7c3e07aa3f7f991e03bdd1537cf512c20d5ab7e2843e32eaa61844c",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/tasks/KVM.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a78ba6a0973c4d45d07bd2cf61e253f4cf04cf2946b4b8a3a24994ec652de2ed",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c73fbc8711d9de4cad7f00323a2a9e6aeaeb9af302bdcdf315780fefeadfcfb3",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ce463d4bf27f84e0b1b321b6416264c407c68fbd3a2db7acedb0c4318d800d0d",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-centos-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8477ac9744d9ec2feeac90407f74eba2f48d04ed727abb2fab8305eb777633ee",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5afc8b6b7e44344ae786b6c9314bcedc156e721138b0722a511ce368b5e612b9",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d58e8c556983d952235973027c86634a1b138b3a3602db902a9867485c1546e5",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "48be9402d7e022ae23fc8b1d79f9510f2affb0309a3ef41512d5a27b88f5e00e",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "2f03ffd1417db13df0e1edbdc57044c4844cc6aa1eeaef606d4187766338350c",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bd0142914b0932c84630d6045403976a6c674a7f0b23886f28b64a8a100da491",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "7ff2364e9c313ebcae025ad24e68f7c93417b41e69d9cddcb3a56a2ab7f86205",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-centos-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "7f2973096dddc6d9f44e9db960f66726379439bac498b55bafe91b6ba32449bc",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5f68a0396fc81c586a6ec7e479936628c0ba2d445d8fdf744021b94ffad0a40c",
+            "format": 1
+        },
+        {
+            "name": "roles/vmtools/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "131913fe37a293d5e58e8f29d55ed5a61f7898b52cabf5cfc1f9dc2925bb2b3b",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d7c0fec96e70f5576bd1264fbdc7c93a46a80d8217ef266c41fe6452e87484c2",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1f6543b6e52c94577b483f74711f9b8e9488d3b9cfd76ddadc81051b82415a13",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a10614439bdd989ad664debbb744b0fe36f7627a1c4c985bb87b0b379a961cb5",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/install_RedHat.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "33ed63eeabfb551bc458b6e01a383add34819b1acfbf62cfeaba486d8355bef6",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/install_Debian.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "79bb376bd9a7b5b7565ea6a4bfc8dfc2752a2e2b467f8471dddbab1f03af514a",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/selinux.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "540ca46ddcb7cca3b4ce5d2f7636152a6dccde890e550f207ff43c216a5f6e8a",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ecce73e3ef92381fafc3a1986558732cd86c5cddc2af1234db77b6c0c935bd6b",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fdd10a6b8253a2a6a7e148831cd8c5a3b70f582cd216c8dce0fa068c223bdf9c",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d14c5aa7bb5cc09c7090a56f407b8424ba98a752877f340421398ac03bdb6599",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/tasks/configure.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ca244f4d31bc062c3eb10b7e63c75a8c83237cd665a1fafdf1e2400c077351c5",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "658316ef60b59bfc3ac3256c3a85214ebb76f37cccaf0f889d5b686274b2eca6",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "87a60e9b26a047ecd0bc9439dcdab4f4f6b1c05b771160e14049634f7af9035c",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-centos-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6a271498ab60af11d058dcc80079938fd9af280f316c334d545ad9cc0b656004",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c5bddad25746adb7ac8a7865dcafc2aedc1b3d40afab2b5d4f6673e82b7ab881",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e74e1619de74e09f3261af38972df375200332306c2f730cdceccbcf14f5ed29",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f9a13944eca6a25c54556b5855a8e8b85b195c1d1c82ae2bfaa9fb90596dc28d",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "dcb8d13f0e8cf0061cba1c0f987ac2ca4d08605a11e681210eea97717a73a003",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ab2781565595f5608e8eee105a4214bad7c9376f7306f53c804d76d15b3290f1",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-centos-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fed48eb97209689b18dee1dd830b8b06dc7dd3e9b78e3e16c18e068adf3eb236",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "84356ae2492a8e817776bb59b86f6855f817427c581fee2f8f80d9e6b154cbd4",
+            "format": 1
+        },
+        {
+            "name": "roles/kvm/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a7088bc67d52aec24fb726aedc445a51aa8bf6e3d4b3a3365a320d0417256833",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/files",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "127a91637b87552681732edad8a9645e49fad02b1fea3ef6bf87f74f8531f0ee",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fb2438922d1688426a2f2052e3cc82f4a11bfaa0355e76a90c2b3ff992369aac",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/files/snap.pp",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "95429ee61f3698b41fc47e9c91784c5c947fcbd7d9c185077e65678db531f913",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "18acdeff87f130560f69ed831d959173a41593a35bd02af29750f47df0d648ff",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/install_RedHat.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a0b0511d97f50f7b033d89960010cdb68104819c78d898355be1e4883b202e74",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/install_Debian.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "35bab71c0c353f7cb63f920165647feeaca637b6c93e4c2db72805f35b1c3197",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/snap.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a1d73beadc3da25cbf3fe1107f22de9c7d553e4515230bea65ff1e790c3e41a2",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0bc94e07ce5549a33c6a77c03006869cc93c7b90a08a421b812ed796b2336a2c",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "554b73817c3212d542bb8b653a135d1f8d9c1b42e48538740d576d7809e5cce4",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "712fd508fe44052860bf37b7c40972981f0c1c90862598e06b62518fae53cb81",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/tasks/configure.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bdcc48d9fe77976330dd1a3d006f668664f7ea7e946989b65d776bbcd9f64c44",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1d15af391f43e9a74edf594fa85a4ae717cc00d58d36c9a24f931179a5601c62",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "18976ac1a2984b1aedf55ae06166b0cb7ce422808a18432a8db6c32825193dab",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fed48eb97209689b18dee1dd830b8b06dc7dd3e9b78e3e16c18e068adf3eb236",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c5bddad25746adb7ac8a7865dcafc2aedc1b3d40afab2b5d4f6673e82b7ab881",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e74e1619de74e09f3261af38972df375200332306c2f730cdceccbcf14f5ed29",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "069b2f43da5472bc318988d72f6391c1b6127fec68c9ee16b799cd79b4060867",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e16fed081817f766075bd541a8c80f79887882ca3f67c7ad2245494de78165b6",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ab2781565595f5608e8eee105a4214bad7c9376f7306f53c804d76d15b3290f1",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "84356ae2492a8e817776bb59b86f6855f817427c581fee2f8f80d9e6b154cbd4",
+            "format": 1
+        },
+        {
+            "name": "roles/lxd/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "4531b9ad249dd1aa036b92d9d74e511a68a9f0093ad1f63bea2bfa30a14af2ae",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "948b7c8f0dc9a753778e2ea83bc660e4e3c531b79673ccf320dbcad6ae9b41de",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "752e122e870fc551b7758dca58626c31f64a69868bf79033a225f7b2b40d295d",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "232420d47c38afa1feed8dd3210f6eb94bfe987d25652a03b913dfd7bebc131b",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks/install_Debian.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "3484e0fd4742025aa8e000e814e0b6651bde6c44c0f0fd25bbf6aaef98e498e7",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "391ae9126c9010ab39b12a6016168e2c4b790ead793089a07e53cfd2d2469d08",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "66aab0a94fa528a91472a2eb0957f08ac92c3be1bb5766ef26b5bb90b11b9c29",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ef9a2fdd8c5da53d4186b02d94eef824d13b81b3ac2bb00d996ec9327f434d3b",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/tasks/configure.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8114681d283d762314c4a1d98e6b7a8a01bf2b3cd5ce700fb9ce62d58654c5db",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "3ed94b79ce27e6c8299c0ffd26b36b95f2bfd6d50d994c1c9e302d204294da96",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "83fef5a1e938597f3af2b2ab836df6b144e29bf21c6bdd62afd9d14fb7776e19",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-centos-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "2c03688a55c7bb40c3642866e35519e62e228cb282e008ec0d0350bd69714f68",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e9032fd5fff49f52d6f69cb9e6f848ceaa596e84a5d4a31af63cd988b6abaf0d",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "dae44490afd8c47afb6a7ed5d9e7b8ac008b3f70078c3f1f56cd519a139c3c89",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6e991cdbd494b4558aace8e005491cb82e14bc950c13ec37721b7b002ecea7e5",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "671652ddf521657c36f00bf78419291e5056ca85d01134139c3ec18611743969",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-centos-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "7902b522afa45488e70a565babaae33de2ca05a132c30d009cc9119ee25a0d57",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f1e9413f950f5a704aec96d762e734ad5b94230e780fb7f0c921cf94906caea4",
+            "format": 1
+        },
+        {
+            "name": "roles/docker/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "2a4bcb0b45945117c6c9be961176e4a73a83b8ccf198792b1f86dfb212220c19",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c4e215b042d9fe2cf03cdedab1b52274f2b1fd2840a7acc12eed3aa1e64a59cd",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "9ed28d892b72f7dc96681d7c92eeae2965f927965b0a73e5e2805534f7e216df",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks/install_Fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "3cad792774ac9bcff185132f7cd14d44ca9550f3baa25df7b4b37004351cd7df",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks/install_RedHat.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "7ab127c13ccf2144d8b73e3e2a122ceb13cecf84f45cf284885f5eb7bb9bc14c",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks/install_Debian.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "72ccd224a16a8d087eaa0fa4c95775c71b2db4aa87ec0fcfd00d8d5340f1c921",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ad6e4a5bbd785099918cb0e6367e473f679fb31cd9d214c66c026d5babfcf6d8",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks/install_CentOS.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "657dbf3aca2c0f4df61f18f2c0d451dfc0235e83a85ba3b8313872515773e199",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/tasks/install_Ubuntu.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "52752f30323fbd6a83bc43ceb92535df2c511e5b1bebe50e975f191c68d45f20",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "00ffea9d0f06deee919e63d9734b056e4f7aa499585771eb6067e9ebef64fa4b",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fba0a0c108dddda896dda68203c7552af2dc2d02a80ba3721c53ed38f7d278cf",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-rhel-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/vagrant-centos-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d45759e990d84388d91492613f231149c506dbad49c3072bf5fe88feeaf26c7e",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-rhel-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1bf6af4ec029db64fc395a9a41e1926cbb7d374506548fb6d581a8ee257f837c",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "feddf8a2bacbfe2fc629d85f25d78edf7fdf1a12e69b46972531836f3d1d50c6",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e096912c1dc5c0bc0f11141033ed4f5d53dfb1f6215b6e3b33d7d9afcb477d18",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "986c3e96380aa5232243bd9b83a4a7ff47922c0ee87dbd20610274b9ff586602",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1be8b9f19ebc3d8711ff3a63cd4fc6e58eaa00d91e8b64cb7efdba6d98c9b6e1",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/vagrant-centos-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "2110386c00c4a57c81bf9a6a2fe5d7bf7e7c9bcd5aa14ca13a1160b98f37c914",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "de95c27152d85c07513f2f1e99add2010b01dc205c241ecd1c899c5b098abb7f",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/molecule/docker-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fec324667240fe019af3d6ef08c80172ba29dd9cff0c9b88e91628471fa1fa6f",
+            "format": 1
+        },
+        {
+            "name": "roles/vagrant/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "bfce0962f6b1fd08a69f2866764d206eac7101c5c4749761b56db890f22d66e4",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/templates",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "cd45a1ac9430c17554425706bdf821ec2ad991d093ccc1f67ca4bf90cfc2d63f",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "71817687f6e8e5e6f5abb2f128f861c8438236596f040a94b3b18a259103656f",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/disable-ipv6.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "747bc0c77414e8f7c42d16cd6c6da64a30dbbbd0be772eaf32c35e4cda1fb601",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/sudoers.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "4f01d40d657c153886c7321dcc9462089df4d7eee996b7242d460857347262d3",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/hosts.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "75361f2fb0d8b3c6b42e58646f25c351899dee90ce506ce8293346592873d855",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/network.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "da376146af96b51648cafd590c01e01ce8a9e9c42c98326a8918d0c1362e4f3c",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "b9f7de42a2f6f6ef3e264aacfcd04ff9f66b55e51626116d1fa588169148bc1c",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/cleanup.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aa22012e00a4367c9d5f73d3544449ab6981a30e81a984d2d3dff5fa80230d5c",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/vagrant.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "1578366b176e4a72bee21074dd1b4a8cf6f91adc2732ec3ceb690df3136716cb",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/tasks/sshd.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "9b9fe5550fa86e77933759496454e088e6777a99e95a12a07c580120b80e1872",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/templates/sudoers.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "e2c1b3bd65374388c076c7957ee6229de3a1f45c3de76c041b3c17f20292fc80",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "907d8a0bd69ffd8b549cb4de8609744119b03ce1607fbff344efac36a7b060ee",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "03ae50491ed102cf7083bf449108e2fb748d557e626435704d9b85e7de61f0f9",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-centos-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "66b3878b8ec23ee9805289913f19406d93fc963c8a4923af1150735873569544",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "fb4317b2951fe398b856f287257a734c419324d1686f52201a9a73805dfcfb96",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "adec63f39906ccb9245ef72ad0131ea20b8982c9118fcf043a25ca9439ed0f21",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "48be9402d7e022ae23fc8b1d79f9510f2affb0309a3ef41512d5a27b88f5e00e",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c4d681c3c5bab09103754580c8c62373a89e73ef34a020a5d4ced4c555fab219",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "dd1634034e1af47940dbce7674d4a3598ced7a92d4abc5e74e8f120f749563c1",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "dbe9bcea3d0b946f70cebcfcd2cfaeb2218623fce5fed716241ec38aa5542b2f",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-centos-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "71e7cb1c678538dc67dfb3bdf6942a0a9902b125004c9dad35a712e76cc82ec9",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/molecule/vagrant-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f48a5e7db2d0b2edf3425d14d47b5614404a1634c027655b70daec5676c99256",
+            "format": 1
+        },
+        {
+            "name": "roles/vmvagrant/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f746fd5cc9d1b3901b22d0366fcf80e4912f29958a12cba9aa5f8c40e5733db0",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/meta",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/tasks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/handlers",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/defaults",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/.yamllint",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8718162a8b5b0ad00e233347bc7482068a5d159a917c6d60363e5b3c91c0383d",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/README.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a0fc458c186d9f062368167ba43fa1620bb976cfaa2fc6047d8b7864f0f525de",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/meta/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6e1692a7036979e8bb4d8d5d9be19ee3393393fa0c6b5c52644e471917674f74",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/tasks/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "255c9c6db2c987ec9ac1a3333cfe23051970ce9bec6272bc688a3aef78d612a7",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/handlers/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "dafe80a611faed233cd0d0241e5a9167f0cc62e0fc4c89aa87ae409f2c24f1aa",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/defaults/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "ed255ef79c36eb7ae9dcf916b54f8800437ba1474b514489d5156f3cdb892798",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/default",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-rhel-7",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-fedora-30",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-debian-10",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-rhel-8",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-ubuntu-18.04",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/default/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c8b0cd19a0775994c331784aea29c77956343d45c820ae10840387be127c64ff",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-rhel-7/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "83c98b42ae5464264f8cf71fd45e2bf890600fa1c45ce8cb5315d23d3d67cce4",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-fedora-30/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5643b5c7d96f661643e931fede4b208d52b4d3d23fbb2ecaf840488db384b3e9",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-debian-10/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8daaba23497d1c9fc80543e2b83140e236a345db5e1247d56300c7705f8098d5",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/playbooks",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/tests",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/Dockerfile.j2",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a3513739d8c6d4d93dacae8c75b731c6b41df2335c99d602e30e1ad4bc693b21",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/playbooks/verify.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "78984a386c779239a9a16450913da418ebc09e395e8eb71a131a1cb9ac2f8e6b",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/playbooks/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "b91dfbed154dad0a16caf7ff964fd3c19bd2fc80458b6864308c08cb9911a004",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/playbooks/prepare.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0375b9bf027ce497247e19b92b961784ac93eaae50c2e965679c2291b47e3eaf",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/playbooks/bootstrap.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "aca91eeb8373aa1de8b3b787bf6abc34a9329be9268f6c21ef7607b905eb5c19",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/resources/tests/test_default.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "d399d1205768df9c79b60c6b061d42d5d0677fd5a35645dc9ec6c279f71299e6",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-rhel-8/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5abe2672036f6a6671aa25f4d729c7740aaf197f2604410ae936760dce5b2191",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/molecule/docker-ubuntu-18.04/molecule.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "6eac2d6059c6eb1dceb1882aada81dcb10cb77dacc4d87771af015561182c1a2",
+            "format": 1
+        },
+        {
+            "name": "roles/packer/vars/main.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "5b89af03169bd2d2b14274cbfb179ccf06db91dbac6c0a68f6c884267e93568c",
+            "format": 1
+        },
+        {
+            "name": "playbooks/templates",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "playbooks/templates/playbook.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "304d7b2cee04de155cbb2a0eebccb99a53c76508235f05012e8bd75def053618",
+            "format": 1
+        },
+        {
+            "name": "inventory/host_vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "inventory/group_vars",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "inventory/hosts",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f83070e54bf95e9e27e696d578a081718e693af13439191178f095128b9f2c05",
+            "format": 1
+        },
+        {
+            "name": "inventory/host_vars/fedora.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "40b878882f7633e1dd29a65b5e45a245273046e23312f90b64e200a88ee7c3db",
+            "format": 1
+        },
+        {
+            "name": "inventory/group_vars/all.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+            "format": 1
+        },
+        {
+            "name": "docs/docs",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "docs/requirements.txt",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a1637a0e68e7d01c85be90c66bb63b2c064bc9fb27d053aec03b0b5347d11169",
+            "format": 1
+        },
+        {
+            "name": "docs/mkdocs.yml",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "691dcecb1dde017a7939e70eec5fc6cefbc31f579d040e6400c3fafa979e3dbb",
+            "format": 1
+        },
+        {
+            "name": "docs/serve-site.sh",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8b423e272fa8f688b20d0b76891250f0b7609cfa7f8e99a552b48a35e25026c4",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization",
+            "ftype": "dir",
+            "chksum_type": null,
+            "chksum_sha256": null,
+            "format": 1
+        },
+        {
+            "name": "docs/docs/index.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "8369d6185acaa4c7947f35c0a3e4aa732cec906f21bd237442c3a939aff167cd",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization/lxd.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "0b99f35dd7722558e67ab94aff378166c002c5109b2f9e789bbe82f007b6c16d",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization/docker-ce.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "a97a5381d5bfc43379cec1fb160ad683588e4f95112a734d3166c51bdb4a3e57",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization/podman.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "9716d23c2ed319d162ee1022dc3bdcf7e959b6d146f2824d20fc45e483b25219",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization/virtualbox.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "c1864612011e0941ad53eea3aed42e799a4b04b2d9b0f4b69665770944cdc70b",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization/vmware.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "902c895d0802fed407caa2a8557c676e9d5707d9bc14610e7711db0a82c4e5fb",
+            "format": 1
+        },
+        {
+            "name": "docs/docs/virtualization/kvm.md",
+            "ftype": "file",
+            "chksum_type": "sha256",
+            "chksum_sha256": "f0e00406b951009310754061d709a5983b681bc175f4f9c4e68600fb6eddf79b",
+            "format": 1
+        }
+    ],
+    "format": 1
+}

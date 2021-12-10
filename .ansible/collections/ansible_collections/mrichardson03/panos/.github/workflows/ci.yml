@@ -1,0 +1,125 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./ansible_collections/mrichardson03/panos
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: ./ansible_collections/mrichardson03/panos
+
+      - name: Set up Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.8
+
+      - name: Install pipenv
+        run: |
+          pip install pipenv
+
+      # - name: Check pipenv cache
+      #   id: cache-pipenv
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ~/.local/share/virtualenvs
+      #     key: ${{ runner.os }}-pipenv-test-v3-${{ hashFiles('**/Pipfile.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pipenv-test-v3-
+
+      - name: Install dependencies
+        # if: steps.cache-pipenv.outputs.cache-hit != 'true'
+        run: |
+          pipenv install --dev
+
+      - name: Check pre-commit cache
+        id: cache-pre-commit
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pre-commit
+          key: ${{ runner.os }}-pre-commit-test-v1-${{ hashFiles('.pre-commit-config.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pre-commit-test-v1-
+
+      - name: Run pre-commit checks
+        run:
+          pipenv run pre-commit run --color=always --show-diff-on-failure --all-files
+
+      - name: ansible-test units
+        run:
+          pipenv run make units
+
+      - name: ansible-test sanity
+        run:
+          pipenv run ansible-test sanity --python 3.8
+
+
+  release:
+    name: release
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [test]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.8
+
+      - name: Install pipenv
+        run: |
+          pip install pipenv
+
+      # - name: Check pipenv cache
+      #   id: cache-pipenv-release
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ~/.local/share/virtualenvs
+      #     key: ${{ runner.os }}-pipenv-release-v3-${{ hashFiles('**/Pipfile.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-pipenv-release-v3-
+
+      - name: Install dependencies
+        # if: steps.cache-pipenv-release.outputs.cache-hit != 'true'
+        run: |
+          pipenv install --dev
+
+      - name: Set up Galaxy auth
+        run: |
+          mkdir -p $HOME/.ansible
+          echo "token: $GALAXY_API_KEY" > $HOME/.ansible/galaxy_token
+        env:
+          GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}
+
+      - name: Create release and publish
+        id: release
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          semantic_version: 17.1.1
+          extra_plugins: |
+            conventional-changelog-conventionalcommits@^4.4.0
+            @semantic-release/git@^9.0.0
+            @semantic-release/exec@^5.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate documentation
+        run: |
+          cd docs
+          pipenv run make html
+
+      - name: Publish documentation
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: docs/_build/html

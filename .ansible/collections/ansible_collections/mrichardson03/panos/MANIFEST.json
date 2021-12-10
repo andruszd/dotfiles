@@ -1,0 +1,35 @@
+{
+ "collection_info": {
+  "namespace": "mrichardson03",
+  "name": "panos",
+  "version": "1.4.2",
+  "authors": [
+   "Michael Richardson (@mrichardson03)",
+   "Nate Embery (@nembery)"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "networking",
+   "paloaltonetworks",
+   "panw",
+   "security",
+   "panos"
+  ],
+  "description": "Ansible collection for PAN-OS devices",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {},
+  "repository": "https://github.com/mrichardson03/mrichardson03.panos",
+  "documentation": "https://github.com/mrichardson03/mrichardson03.panos",
+  "homepage": "https://github.com/mrichardson03/mrichardson03.panos",
+  "issues": "https://github.com/mrichardson03/mrichardson03.panos/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "f18281c9d8f946c4a8a420386e3885401e0d3d97b1f06429635c8c9ab4fb4716",
+  "format": 1
+ },
+ "format": 1
+}

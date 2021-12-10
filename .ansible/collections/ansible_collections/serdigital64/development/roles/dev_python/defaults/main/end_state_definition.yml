@@ -1,0 +1,7 @@
+---
+dev_python_application:
+  name: "python"
+  type: "distro"
+  version: "latest"
+  installed: true
+...

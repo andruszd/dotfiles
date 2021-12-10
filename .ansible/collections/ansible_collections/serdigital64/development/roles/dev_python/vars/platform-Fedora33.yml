@@ -1,0 +1,23 @@
+---
+dev_python_base:
+  run:
+    python_3_9: &dev_python_base_run_python_3_9
+      "/usr/bin/python3.9"
+    python_latest: *dev_python_base_run_python_3_9
+
+dev_python_profiles:
+  distro:
+    v3_9: &dev_python_profiles_distro_v3_9
+      packages:
+        - name: "python3"
+        - name: "python3-pip"
+        - name: "which"             # Required by pip
+    latest: *dev_python_profiles_distro_v3_9
+
+dev_python_repository_custom_yum: []
+dev_python_repository_custom_apt: []
+
+dev_python_repository_catalog_distro: {}
+dev_python_repository_catalog_yum: {}
+dev_python_repository_catalog_apt: {}
+...

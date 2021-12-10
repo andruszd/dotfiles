@@ -1,0 +1,44 @@
+{
+    "collection_info": {
+        "namespace": "crivetimihai",
+        "name": "virtualization",
+        "version": "1.0.33",
+        "license": [
+            "MIT"
+        ],
+        "description": "Virtualization tools - VirtualBox, KVM, VMware, LXD, Docker-CE, Podman, Vagrant, Packer",
+        "repository": "https://www.github.com/crivetimihai/ansible_virtualization",
+        "documentation": "https://crivetimihai.github.io/ansible_virtualization/",
+        "homepage": "https://www.github.com/crivetimihai/ansible_virtualization",
+        "issues": "https://www.github.com/crivetimihai/ansible_virtualization/issues",
+        "authors": [
+            "Mihai Criveti (https://twitter.com/crivetimihai)"
+        ],
+        "tags": [
+            "linux",
+            "virtualization",
+            "hypervisor",
+            "virtualbox",
+            "kvm",
+            "vmware",
+            "docker",
+            "podman",
+            "vagrant",
+            "packer",
+            "vmtools",
+            "packaging",
+            "collection"
+        ],
+        "license_file": null,
+        "readme": "README.md",
+        "dependencies": {}
+    },
+    "file_manifest_file": {
+        "name": "FILES.json",
+        "ftype": "file",
+        "chksum_type": "sha256",
+        "chksum_sha256": "e2fcf745d71570423b842aa2011e28ce4a6ba171f9a33c1c64dd696224297307",
+        "format": 1
+    },
+    "format": 1
+}

@@ -1,0 +1,10 @@
+---
+- name: "Development / NodeJS / Deploy / Package / GIT"
+  vars:
+    core_package:
+      provision: true
+    core_package_application: "{{ dev_nodejs_application }}"
+    core_package_profiles: "{{ dev_nodejs_profiles }}"
+  ansible.builtin.include_role:
+    name: "serdigital64.core.core_package"
+...

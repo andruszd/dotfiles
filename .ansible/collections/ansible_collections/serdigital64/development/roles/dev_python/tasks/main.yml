@@ -1,0 +1,16 @@
+---
+- name: "Development / Python / Initialize"
+  ansible.builtin.include_tasks:
+    file: "dev_python_initialize.yml"
+
+- name: "Development / Python / Deploy"
+  ansible.builtin.include_tasks:
+    file: "dev_python_deploy.yml"
+  when:
+    - "'deploy' in dev_python"
+    - "dev_python['deploy']"
+
+- name: "Development / Python / Finalize"
+  ansible.builtin.include_tasks:
+    file: "dev_python_finalize.yml"
+...

@@ -1,0 +1,250 @@
+# (c) 2019,  Rhys Campbell <rhys.james.campbell@googlemail.com>
+
+# This file is part of Ansible
+#
+# Ansible is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Ansible is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Ansible.  If not, see <http://www.gnu.org/licenses/>.
+
+# ============================================================
+
+- meta: end_play
+  when: ansible_os_family not in  ['RedHat', 'Debian' ]
+
+- name: Install required_packages
+  package:
+    name: "{{ required_packages }}"
+
+- name: Ensure Cassandra service from setup_cassandra isn't running
+  service:
+    name: "{{ cassandra_service }}"
+    enabled: "yes"
+    state: "stopped"
+  ignore_errors: yes  # Might not exist
+
+- name: Install sudo
+  package:
+    name: sudo
+    state: present
+
+- name: Install OpenJDK package
+  yum:
+    name: "{{ openjdk }}"
+    state: present
+  when: ansible_os_family == 'RedHat'
+
+- name: Run the equivalent of "apt-get update"
+  apt:
+    update_cache: yes
+  when: ansible_os_family == 'Debian'
+
+- name: Install required pip packages
+  pip:
+    name: "{{ pip_packages }}"
+    state: present
+
+- name: Download ant package and unarchive
+  unarchive:
+    src: "{{ ant_download }}"
+    dest: /usr/local
+    remote_src: yes
+    validate_certs: False
+
+- name: Create a symbolic link for ant
+  file:
+    state: link
+    src: "/usr/local/apache-ant-{{ ant_version }}/"
+    dest: /usr/local/ant
+
+- name:
+  blockinfile:
+    path: /etc/profile.d/ant.sh
+    marker: "#<!-- {mark} ANSIBLE MANAGED BLOCK -->"
+    block: |
+      export ANT_HOME=/usr/local/ant
+      export PATH=${PATH}:${ANT_HOME}/bin
+    create: yes
+
+- name: Check ant setup
+  shell: source /etc/profile.d/ant.sh && echo $ANT_HOME
+  args:
+    executable: /bin/bash
+  register: ant_setup
+
+- name: Validate ant setup
+  assert:
+    that:
+      - "'/usr/local/ant' in ant_setup.stdout"
+
+- name: Check ant setup
+  shell: source /etc/profile.d/ant.sh && echo $PATH
+  args:
+    executable: /bin/bash
+  register: ant_path_setup
+
+- name: Validate path
+  assert:
+    that:
+      - "'/usr/local/ant' in ant_path_setup.stdout"
+
+- name: Create cassandra user
+  user:
+    name: cassandra
+    state: present
+    shell: /bin/bash
+    create_home: yes
+
+- name: Ensure dirs exist
+  file:
+    path: "{{ item }}"
+    state: directory
+    owner: cassandra
+    group: cassandra
+    mode: 0755
+  with_items:
+    - /home/cassandra
+    - /home/cassandra/config
+
+- name: Install ccm via pip
+  pip:
+    name: ccm
+    state: present
+
+- shell: find /usr -name ccm -ls
+
+- name: DEBUG - Test with PATH set
+  shell: |
+    which ccm && which ant
+  environment:
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant/bin
+  ignore_errors: yes
+
+- set_fact:
+    ccm_cmd: /usr/local/bin/ccm
+
+- name: Test ccm executable
+  shell:  /usr/local/bin/ccm --help
+  register: ccm
+  ignore_errors: yes
+
+- set_fact:
+    ccm_cmd: /usr/bin/ccm
+  when: "'Create a new cluster' not in ccm.stdout"
+
+- name: Cleanup any previous ccm stuff
+  shell: "sudo -E -u cassandra bash -c \"{{ ccm_cmd }} remove test > /dev/null\""
+  become_user: cassandra
+  args:
+    warn: false
+    chdir: /home/cassandra
+  environment:
+    CCM_CONFIG_DIR: "/home/cassandra/config"
+    CASSANDRA_HOME: "/home/cassandra"
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant/bin
+  ignore_errors: yes
+
+- name: Install Cassandra via ccm tool
+  shell: "sudo -E -u cassandra bash -c \"{{ ccm_cmd }} create test -v {{ cassandra_version }} > /dev/null\""
+  become_user: cassandra
+  args:
+    warn: false
+    chdir: /home/cassandra
+  environment:
+    CCM_CONFIG_DIR: "/home/cassandra/config"
+    CASSANDRA_HOME: "/home/cassandra"
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant/bin
+
+#- name: Add nodes to the Cassandra cluster
+#  shell: "sudo -E -u cassandra bash -c \"{{ ccm_cmd }} populate -n {{ cassandra_nodes }}\""
+#  become_user: cassandra
+#  args:
+#    warn: false
+#    chdir: /home/cassandra
+#  environment:
+#    CCM_CONFIG_DIR: "/home/cassandra/config"
+#    CASSANDRA_HOME: "/home/cassandra"
+#    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant
+
+- name: Add nodes to the Cassandra Cluster
+  shell: "sudo -E -u cassandra bash -c '{{ ccm_cmd }} add {{ item.node }} -i {{ item.ip }} -j {{ item.port }} -b --data-center={{ item.dc }} --remote-debug-port {{ item.debug_port }} {{ item.args }}'"
+  become_user: cassandra
+  args:
+    warn: false
+    chdir: /home/cassandra
+  environment:
+    CCM_CONFIG_DIR: "/home/cassandra/config"
+    CASSANDRA_HOME: "/home/cassandra"
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant
+  with_items: "{{ cassandra_nodes }}"
+
+- name: Update endpoint_snitch
+  lineinfile:
+    path: "/home/cassandra/config/test/{{ item.node }}/conf/cassandra.yaml"
+    regexp: "^endpoint_snitch"
+    line: "endpoint_snitch: GossipingPropertyFileSnitch"
+  with_items: "{{ cassandra_nodes }}"
+  no_log: yes
+
+- name: Update rack info
+  copy:
+    content: |
+      dc={{ item.dc }}
+      rack=rack1
+    dest: /home/cassandra/config/test/{{ item.node }}/conf/cassandra-rackdc.properties
+  with_items: "{{ cassandra_nodes }}"
+
+- set_fact:
+    cassandra_node_delay: 120
+  when: ansible_os_family == "RedHat"
+
+- name: Start the ccm cluster
+  shell: sudo -E -u cassandra bash -c "{{ ccm_cmd }} start  --root"
+  become_user: cassandra
+  args:
+    warn: false
+    chdir: /home/cassandra
+  environment:
+    CCM_CONFIG_DIR: "/home/cassandra/config"
+    CASSANDRA_HOME: "/home/cassandra"
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant/bin
+    CCM_CLUSTER_START_DEFAULT_TIMEOUT: 600
+
+- name: Get cluster status
+  shell: sudo -E -u cassandra bash -c "{{ ccm_cmd }} status"
+  become_user: cassandra
+  args:
+    warn: false
+    chdir: /home/cassandra
+  register: cluster_status
+  environment:
+    CCM_CONFIG_DIR: "/home/cassandra/config"
+    CASSANDRA_HOME: "/home/cassandra"
+    PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant/bin
+
+- debug:
+    msg: "{{ cluster_status.stdout }}"
+
+- name: Set nodetool path
+  copy:
+    dest: /home/cassandra/nodetool_path.sh
+    content: |
+      export PATH="$PATH:/home/cassandra/config/repository/{{ cassandra_version }}/bin/"
+    owner: cassandra
+    group: users
+
+- name: Wait for the cql port to become active
+  wait_for:
+    port: 9042
+    host: "{{ item.ip }}"
+    delay: 30
+    timeout: 600
+  with_items: "{{ cassandra_nodes }}"

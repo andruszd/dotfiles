@@ -1,0 +1,73 @@
+---
+# vars file for kvm
+
+centos_packages:
+  - policycoreutils-python
+  - qemu-kvm
+  - qemu-img
+  - libvirt
+  - libvirt-client
+  - libvirt-python
+  - libvirt-nss
+  - libguestfs-tools
+  - virt-install
+  - bridge-utils
+  - virt-top
+  - genisoimage
+
+redhat_packages:
+  - policycoreutils-python-utils
+  - qemu-kvm
+  - qemu-img
+  - libvirt
+  - libvirt-client
+  - python3-libvirt
+  - libvirt-nss
+  - libguestfs-tools
+  - virt-install
+  - virt-top
+  - genisoimage
+
+fedora_packages:
+  - policycoreutils-python-utils
+  - qemu-kvm
+  - qemu-img
+  - libvirt
+  - libvirt-client
+  - python3-libvirt
+  - libvirt-nss
+  - libguestfs-tools
+  - virt-install
+  - virt-top
+  - genisoimage
+
+debian_packages:
+  - policycoreutils-python-utils
+  - qemu-kvm
+  - qemu-utils
+  - libvirt-clients
+  - libvirt-daemon-system
+  - bridge-utils
+  - python3-libvirt
+  - libnss-libvirt
+  - libguestfs-tools
+  - virtinst
+  - virt-top
+  - genisoimage
+
+ubuntu_packages:
+  - policycoreutils-python-utils
+  - qemu-kvm
+  - qemu-utils
+  - libvirt-clients
+  - libvirt-daemon-system
+  - bridge-utils
+  - python3-libvirt
+  - libnss-libvirt
+  - libguestfs-tools
+  - virtinst
+  - virt-top
+  - genisoimage
+
+selinux_booleans:
+  - {name: staff_use_svirt, state: yes, persistent: yes}

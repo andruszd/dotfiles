@@ -1,0 +1,27 @@
+---
+- name: "Development / Tools / Prepare package managers"
+  vars:
+    core_repository:
+      prepare: true
+      deploy: true
+      setup: true
+      provision: true
+    core_repository_managers:
+      flatpak: "{{ dev_tools_application['type'] == 'flatpak' }}"
+      snap: "{{ dev_tools_application['type'] == 'snap' }}"
+      git: "{{ dev_tools_application['type'] == 'git' }}"
+    core_repository_catalog_distro: "{{ dev_tools_repository_catalog_distro }}"
+    core_repository_catalog_yum: "{{ dev_tools_repository_catalog_yum }}"
+    core_repository_catalog_apt: "{{ dev_tools_repository_catalog_apt }}"
+    core_repository_custom_yum: "{{ dev_tools_repository_custom_yum }}"
+    core_repository_custom_apt: "{{ dev_tools_repository_custom_apt }}"
+  ansible.builtin.include_role:
+    name: "serdigital64.core.core_repository"
+
+- name: "Development / Tools / Prepare package installer"
+  vars:
+    core_package:
+      prepare: true
+  ansible.builtin.include_role:
+    name: "serdigital64.core.core_package"
+...

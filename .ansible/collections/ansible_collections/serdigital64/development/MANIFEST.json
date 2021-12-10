@@ -1,0 +1,38 @@
+{
+ "collection_info": {
+  "namespace": "serdigital64",
+  "name": "development",
+  "version": "0.8.0",
+  "authors": [
+   "SerDigital64 <https://github.com/serdigital64>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "development",
+   "ruby",
+   "gcc",
+   "nodejs",
+   "opencl",
+   "python",
+   "java"
+  ],
+  "description": "Ansible Roles for automating development environment provisioning",
+  "license": [
+   "GPL-3.0-or-later"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/serdigital64/aplatform64",
+  "documentation": "https://aplatform64.readthedocs.io",
+  "homepage": "https://github.com/serdigital64/aplatform64",
+  "issues": "https://github.com/serdigital64/aplatform64/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "901e5959c8d4298fd2aca0e86eb8ddd43a174dc273c138c34d365c895c8beac8",
+  "format": 1
+ },
+ "format": 1
+}

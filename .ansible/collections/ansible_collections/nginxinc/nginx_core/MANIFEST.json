@@ -1,0 +1,50 @@
+{
+ "collection_info": {
+  "namespace": "nginxinc",
+  "name": "nginx_core",
+  "version": "0.4.0",
+  "authors": [
+   "Alessandro Fael Garcia <a.faelgarcia@f5.com>",
+   "Daniel Edgar <d.edgar@f5.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "nginx",
+   "nginx_plus",
+   "nginx_config",
+   "nginx_app_protect",
+   "oss",
+   "opensource",
+   "plus",
+   "web",
+   "server",
+   "load_balancer",
+   "reverse_proxy",
+   "api_gateway",
+   "waf",
+   "dos",
+   "security",
+   "installation",
+   "configuration",
+   "infrastructure",
+   "cloud",
+   "monitoring"
+  ],
+  "description": "Install and configure NGINX and NGINX App Protect using Ansible",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {},
+  "repository": "https://github.com/nginxinc/ansible-collection-nginx",
+  "documentation": "https://github.com/nginxinc/ansible-collection-nginx/blob/main/README.md",
+  "homepage": "https://github.com/nginxinc/ansible-collection-nginx",
+  "issues": "https://github.com/nginxinc/ansible-collection-nginx/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "ebe703cdc7020d3fae8a13e5ba0ed3a117731491bbb7ac5fdf8dd58fc9e56dad",
+  "format": 1
+ },
+ "format": 1
+}

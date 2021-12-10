@@ -1,0 +1,5 @@
+---
+# defaults file for podman
+
+# echo 15659 > /proc/sys/user/max_user_namespaces
+proc_max_user_namespaces: "15659"

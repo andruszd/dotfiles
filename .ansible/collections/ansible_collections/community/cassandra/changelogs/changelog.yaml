@@ -1,0 +1,31 @@
+releases:
+  1.0.4:
+    changes:
+      release_summary: "Maintenance release"
+      bug_fixes:
+        - cassandra_cqlsh - Double quote cql shell command when it contains single quotes.
+        - All modules - Ensure login parameters are available across all modules.
+      release_date: '2021-02-27'
+  1.0.5:
+    changes:
+      release_summary: "Maintenance release"
+      bugfixes:
+        - Remove cassandra_dba role.
+        - Add missing metadata to existing roles.
+      release_date: '2021-04-21'
+  1.0.6:
+    changes:
+      release_summary: "Maintenance release"
+      bugfixes:
+        - Improve regex in cassandra_keyspace module - PR160.
+        - Fix import error in cassandra_cqlsh after 311x upgrade - PR158.
+      minor_changes:
+        - Various minor module documentation improvements PR161.
+        - Add additional_args parameter to cassandra_cqlsh module PR149.
+  1.1.0:
+    changes:
+      release_summary: Adds new module cassandra_reload and provides a few minor fixes.
+      minor_changes:
+       - 183 - Adds new module cassandra_reload.
+       - 182 - Add retries to network related tasks in all roles.
+       - A bunch of other PRs addressed issues in the integration test code related to Cassandra 4.0.

@@ -1,0 +1,9 @@
+---
+dev_gcc_profiles:
+  distro:
+    v10:
+      packages:
+        - name: "gcc"
+        - name: "cpp"
+        - name: "gcc-c++"
+...

@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+xmltodict = "*"
+
+[dev-packages]
+ansible-core = "*"
+ansible-doc-extractor = {git = "https://github.com/xlab-steampunk/ansible-doc-extractor.git"}
+black = "==21.6b0"
+coverage = "==4.5.4"
+dataclasses = "*"
+flake8 = "*"
+importlib-metadata = "*"
+isort = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-mock = "*"
+pytest-xdist = "*"
+rstcheck = "*"
+sphinx = "*"
+sphinx-book-theme = "*"
+voluptuous = "*"
+yamllint = "*"
+ghp-import = "*"
+
+[requires]
+python_version = "3.8"

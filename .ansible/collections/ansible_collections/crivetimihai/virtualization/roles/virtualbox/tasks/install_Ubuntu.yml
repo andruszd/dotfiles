@@ -1,0 +1,35 @@
+---
+# Install VirtualBox on Ubuntu
+
+- name: Install packages to allow apt to use a repository over HTTPS
+  package:
+    name: "{{ ubuntu_prereq_packages }}"
+    state: present
+  become: yes
+
+- name: add Virtualbox apt signing key
+  apt_key:
+    url: "{{ item }}"
+    state: present
+  with_items:
+    - https://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc
+    - https://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc
+  become: yes
+
+- name: setup VirtualBox apt repository on Ubuntu
+  apt_repository:
+    repo: "deb https://download.virtualbox.org/virtualbox/debian bionic contrib"
+    state: present
+  become: yes
+
+- name: install VirtualBox
+  package:
+    name: "virtualbox-{{ virtualbox_version }}"
+    state: present
+  become: yes
+
+- name: install VirtualBox vboxdrv requirements on Ubuntu
+  package:
+    name: "{{ vboxdrv_required_packages_ubuntu_1804 }}"
+    state: present
+  become: yes

@@ -1,0 +1,30 @@
+---
+dependency:
+  name: galaxy
+  role-file: requirements.yml
+driver:
+  name: docker
+  provider:
+    name: docker
+lint:
+  name: yamllint
+platforms:
+  - name: packer-centos-76
+    image: centos:7.6.1810
+    dockerfile: ../resources/Dockerfile.j2
+    pre_build_image: False
+provisioner:
+  name: ansible
+  log: True
+  playbooks:
+    vagrant:
+      prepare: ../resources/playbooks/prepare.yml
+    converge: ../resources/playbooks/playbook.yml
+    verify: ../resources/playbooks/verify.yml
+  lint:
+    name: ansible-lint
+verifier:
+  name: goss
+  directory: ../resources/tests
+  lint:
+    name: yamllint

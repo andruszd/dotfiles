@@ -1,0 +1,8 @@
+---
+# Install vagrant on Ubuntu
+
+- name: install Ubuntu packages
+  apt:
+    deb: "{{ item }}"
+  loop: "{{ ubuntu_packages }}"
+  become: yes

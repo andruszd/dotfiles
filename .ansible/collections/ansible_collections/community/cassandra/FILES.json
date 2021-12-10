@@ -1,0 +1,2420 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2e343195100f484e9ddbaf61bcc5ec9562c88e1f1bea41168940d727b8df7c0b",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_table.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7654e624acbb7f846831e5323bce4d4348cdbe3b9de919a5f4fb35e7ead885ee",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_interdcstreamthroughput.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6613e73e1a67b5b6be87b2c0458009e36565f0765826937b09c9f79ff7ab5164",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_streamthroughput.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc2e771855088b4a27e1a868371a0e3bef833189618da15306d6172677609ba7",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_cleanup.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "770868a8133ed9d882ec7b816b8cff34d2b3cdc5bf8efcff44fcbbfc7ac6be54",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_gossip.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "36e50826cbcbde93494cb80ea1214da80799f11c6f3895eea292244542f30150",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_handoff.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "26ea294112887a3a05243c506a65f06c21113b0bcafde8179e2722aaa28e12e7",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_flush.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dc764141e30836b81da71b881c63806566260b6cb0ee7daa6ba6e2e087b1821d",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_compactionthreshold.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "40a0f0d3d6d4a6043d06086192e49e27a05fedfb03eb656b7aa80f96fa681b95",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_schema.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e87c713ba1f6d56d4c905fdc5dbabbcd57337618d4fcc3594a968da5dfa48d47",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_stopdaemon.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "251a8df3600ad3a920e4b4805efa1e91a72fbc135b98ca83de6fcaac9e45844e",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_backup.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab0851d4c7f011523191942431813b9d6a78b839ae94d03483d81642d0c5dce6",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_traceprobability.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6b8d0269cd7d861775d6dafcc4b4a824623f1d856a900b2f2784b646fb4bf4b2",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_verify.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54dba5111cd6f44e51a9964a28566a2f9bcf0ee646072a15f82a5f9f650c89bd",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_cqlsh.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "15033c9bbb093a6e18ce341e31c39915e7d3f5bbd88b82d9dacb06e71f6d16bc",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_binary.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "651b0f8f57b091aa94d141c0e29b7d93a2a04adaa531bc28cd5a4f125790cec2",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_role.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d7aa79dc3292693844088548c45b2020c9a4af2fca92bffbb959b309e70d543e",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_reload.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2bfac649172549b07227e4757b44ddd3faec45786a391690c17c349648dfb03d",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_thrift.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ca783690f3c58ff45f60fd909a610c10e7a3db047ceb28a8e01a3bbdb3089654",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_status.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "76d92fa47527c4ebd4ef22f272bbf100cc920203c69178cc72019ac232adb7a5",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_upgradesstables.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "65bfd8116210c3040c5b98e7cebbba8085cf155a8b18427570d07ba4905a0644",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_keyspace.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "17506c8b52063309df03a0e103dcc96a06d46c169d805547582ef913cdd6fc85",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_drain.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cd6177795e0b2273f790d9716c6bc697823359bcd98a51cf79d48b30293beb42",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_autocompaction.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f886eb23369eee59da8a66843ba6eff66e75414ef116714050c63ab1a76871b1",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cassandra_compactionthroughput.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f38b65f808a0845d971ae612ccb95514b62ee527969c8dd3416b4db60f2982ee",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/cassandra_common_options.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e129efd30605a536063859192929e2dd0753c760fd4f682d345a423b84aac151",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/nodetool_cmd_objects.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6fc2facd672de952089716ccc9ec0b8329ccadfdc49499c23bd40ad46fde1c0a",
+   "format": 1
+  },
+  {
+   "name": "plugins/doc_fragments",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/doc_fragments/nodetool_module_options.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d873c9eae06ebdd0ce69f97a04c840bd5ae5828ade2bab2fa0ca3e2871f14746",
+   "format": 1
+  },
+  {
+   "name": "requirements-3.6.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54948a23d103c6da0708109db59362dc7ec78701f098e041b7613d27265452f2",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fa9d5b95ac3a2cb770c2ceba89852a3585a736f4d8c4283a5b059d6b09ddd379",
+   "format": 1
+  },
+  {
+   "name": "requirements-3.8.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54948a23d103c6da0708109db59362dc7ec78701f098e041b7613d27265452f2",
+   "format": 1
+  },
+  {
+   "name": "requirements-3.5.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54948a23d103c6da0708109db59362dc7ec78701f098e041b7613d27265452f2",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "203e0ffccf1b98bcfbcdde686b843dff578e36825c26877b5507e6f4e80db72f",
+   "format": 1
+  },
+  {
+   "name": "changelogs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "changelogs/changelog.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2235532efdc076fcc1df98ffe40cc183c27dbaa51adaacc5dd05cf0305b50841",
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/test-roles.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7dac7f5dd83e9d278bd4c9b8e827cfb36a6337c733402a410404c16310999eac",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/rebase.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "412ed2fb052a040dc37067e5325acd3828febf6c79b98667d28026dc89fef2fe",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/ansible-test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "40c784d2f5f885c369cadda1bd2b83fda210e3c7cc51abc12653e7efdc42264f",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/documentation.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e9728b02a909ed1af6c8f015ee6fc6746f642dc8b955b84473b5f27ad65bf16b",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/publish_collection.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4cd108123ce4fac7d641aa1eece8874ac505a76ddc46fe5fea427aaf887efb56",
+   "format": 1
+  },
+  {
+   "name": ".github/CODEOWNERS",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb52962c0903ae4cdc0f6356360efe4fb9a509f25b518534dbcbef0eeb9361cd",
+   "format": 1
+  },
+  {
+   "name": ".github/settings.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ac7c48229438311bfcb2676f762abadeb754d113288aab1f96389d4ce82de433",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/sanity",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/sanity/ignore-2.9.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "077e82555402930adfdea1ad0205edb473beda44d9dd1f8ea7b1cf6c44a5a574",
+   "format": 1
+  },
+  {
+   "name": "tests/sanity/ignore-2.11.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "077e82555402930adfdea1ad0205edb473beda44d9dd1f8ea7b1cf6c44a5a574",
+   "format": 1
+  },
+  {
+   "name": "tests/sanity/ignore-2.10.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "077e82555402930adfdea1ad0205edb473beda44d9dd1f8ea7b1cf6c44a5a574",
+   "format": 1
+  },
+  {
+   "name": "tests/integration",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02b083b383a553389f11bb55b4cc1937696c955cc381f8d2b42f1144a8251525",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_handoff/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "91e6fa4902ec19d45f75e1715fc681cb868f10cc579077bc06d4997502d4898e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_streamthroughput/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9474119630bada56604fcfdf127c8836bd9fbc552143dbc395ab147518cbd1a4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_interdcstreamthroughput/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/files/cassandra",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ed69c67a8fdee92632625cdf588eca3ca0f527849cae8f1bdee5a8294379653b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/handlers/cleanup_debian_env.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ed2e999fe6a93b13f6e1a7e4f9b2e80268857579d8517ff9eeae27ab3327a719",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bec3ad5614e2cd40fd97a65b889ec25fd84b0be4b08afd591cc8a67335e43aff",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/handlers/cleanup_redhat7_env.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02fd02400325ad1eb39acd1d864678ce2953e59c007806196843bceabb27e2d4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ba3426cd07d243b35a68a50f2f29bf49da264ccca407ec56558281b149db960c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/tasks/cassandra_auth.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f57ab9f03c8a5acbef1448dadb14e6cee993e157420ff7e5687c9a521fe77065",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/tasks/cassandra_deauth.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "85cc687b59899ebd151cb333221a03e0b644256db1ae74c3728a66c7b22aa945",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc95f9f9f099617092ddb2a7f596718f70b2fb1cc736f47c6af2c87d6cd0dda4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8251661b2889c8561a4648b0844d00af963d81ac42dfd08760b6d4425a8e00e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c428747ec9c9e9a67d8d1123964ec97a3e96a89165be246b894e5bcc4336e00e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra_cluster_manager",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra_cluster_manager/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra_cluster_manager/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d234e1564ac893214fc6feb9634315354345300b7f4601414c9b87ba42fc1c9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra_cluster_manager/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_cassandra_cluster_manager/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a6ca742712ef20842a4c4d8310982297074023b2b2341884999f2b07c884eb2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3d44e545b6dd5e908c0548b8116d001581bd103ac4ef3416c0da0b22bec0a38f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_gossip/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9a11035b63a53bd0ee58eaa7f3b112ea25bb1f21344a84584a5fb14e14b82964",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c3071bcc5d0d25d680d20d615deb1b884ffa5e37bc1fd2cb7343521eec45bbd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c2412cf0ebbcaee74613e44784ee1e85d13feb71f7b8846e0cbca282c929a0db",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_role/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "676bd70286b88721d6f76ea51e5749597bdf942a376ab9403792c7956a4b3346",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_stopdaemon/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e05d34e754ea74312cba81d7b2f7a1501920f690a0b5ca856d190d72cc688c2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cqlsh/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "915ca9d8144e225a2ac6a7716036b213cdd6b4a76e7bd9d433feb6dff4f5f87e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e6a44068ecd1c0ca8e842f8a4a8b3a5e3ae12f8457dbd22ee9c5e6ab9356988",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_schema/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2b1b676d30a841fcb3e9bf9d79d5e75af269dfceda1e92cad47990be366ed01e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_backup/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef889c33204bbeac4334b8d41934bb8bb429481c34b960b597d16b6b33193538",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_autocompaction/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "881d5d50e8e156ac32928f6e3ae35956aca26c8fcc95852753a04a05d4021a39",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_reload/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3c5505a3d7253afa28deaf8450a8bc3b59b64462a0609ad8f019d3265deabaf6",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_flush/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "51f4e5862bb6cb318be0468c985e7496d937e9e5b42a14b1dee9edaf6bc6e016",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_verify/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d399b21312948b8f1c3febf2118844ae9b4d660a5963b78e4a7b0250f94b6708",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthroughput/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0d04fddf53751ab325afb3dab91d28f584009f2c56b565142142ca1f4cae7be3",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_compactionthreshold/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "58da99f7fbf756914df12989a82fc361437e1d50d558e68666bc3395c673c5b9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c3071bcc5d0d25d680d20d615deb1b884ffa5e37bc1fd2cb7343521eec45bbd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c2412cf0ebbcaee74613e44784ee1e85d13feb71f7b8846e0cbca282c929a0db",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_table/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "915ca9d8144e225a2ac6a7716036b213cdd6b4a76e7bd9d433feb6dff4f5f87e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0e4fa194e29cad420d8dacfd8eba25314fb7341f631c0fae1f3f61f9d84de6ec",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c3071bcc5d0d25d680d20d615deb1b884ffa5e37bc1fd2cb7343521eec45bbd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c2412cf0ebbcaee74613e44784ee1e85d13feb71f7b8846e0cbca282c929a0db",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_keyspace/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54d50434c909a539cbc15974c5b1d1f51d68a25b52070f118bcb449fd9d6b363",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_binary/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eea1f4881b79e80a46e44620b28e63aba5d8a8868c9ade50b3eabc7ec9ccd115",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_drain/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "277a8c92ea73e12a8e58e8ef4b08b81e8302f8bcd21674e693ee6e7457ba95a9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_upgradesstables/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6b67c6ffd6886ca360baad2aaf371c89ae9aa41d2375c618af746d3d4d4671bc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_traceprobability/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "915ca9d8144e225a2ac6a7716036b213cdd6b4a76e7bd9d433feb6dff4f5f87e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d83e0acb079cb6c5766a0af29337cb9bf482ff731235aa781a4d4c7c44bf106f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_status/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4ebb9c1deaf090ef54070dcbd6a2eed99f5f7b9668ba8d7a8db63f7148a59e0c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_thrift/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b8000c7c85046708fb28e86dd52d0eefe47a336bc96ec9223e507e2e95039eaf",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f796c1bfc4631c623e38cc934098ee04711d27a612a7c61f6d56f0bfa4bf9710",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/cassandra_cleanup/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f83026ad3c3df39109d84fec6e1b26dda0a4bb0e3701496ae885fab3008252fc",
+   "format": 1
+  },
+  {
+   "name": "tests/coverage.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "403a8a543daede4186827732194e254abc1ce3808902e553e9a88aac4abd114b",
+   "format": 1
+  },
+  {
+   "name": "requirements-2.7.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d291444990fa33d63bc3c973ecbd435c39dcfc6e28f27d5fa763b0d651f81fa7",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "93a0d904cbacfa21e7baae85f3c2de18a92fb4cdf8811be2ca42be43accab366",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/files/disable-thp.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bb774bb573659ce2ae7bd98e2000671a494f50cf9453de74c73fe813daa41fdf",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce06639954380f33237bf32c31de3f9bb8a3dbbf0cc0d965ce11c7317e8e9062",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cef8db9cab5591e9aa0db6f51415f06354691c1da25b56808277bb26315516d7",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/.yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5845e18e9f23155f423207df9abac970aed687c638620bc2c9ee06706191054b",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3a7840480f92d86cd4111d5df4ad3dd4669de87d23c1624e46015f104d14ee51",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a3aaa6d7005b423c265e4bb49fbedd2dd209cee4ec59019001ec22faeafea41",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a9237f8eeedaf3b2490e81247f60f867a7402386cc5dfb3435491271f5885e55",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default/tests/test_default.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3ecd6045848d4c25019195e0b39b8e3a99b322fcd0daf487c32e7e88094af297",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/molecule/default/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2058e7845d1196be292f538a19346f28358d76c6f899a93a4b8a935c1343718d",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "48aad13152aed4d9f2dbfac459fbf7340285ab8c10c3a1b33587bf0fd8ef1333",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c7e8a65bf27d1e0e8ab02793bd570657130d582a615476396c6b4fd75e668473",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "40dcacd8d08d4c0e31d51bda739930d7c885615fce132b17472625eba8c6340a",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_linux/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cd0ba3c54857da79268c49f3ec1cb0a4cc57c7a399538db9b13e335d8d6a205a",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7acc8ff678d3868b83e04c151788d3f539587bb70ffccf6a5336cebb84e29b43",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cd0cef8513f373c31aa5d5725e54d0c24de693834640e4e51651fb3f10d22c80",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/.yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5845e18e9f23155f423207df9abac970aed687c638620bc2c9ee06706191054b",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule/default/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b564b2d813fe377ad03c44fdb7c89795902efe5bbed86ac672e7bc1b2a2a6f72",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5a2f333e36cb4717e63a24a548e74e053d6f26393f240e0516f93f006cf2a409",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule/default/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e79af0ac7684196dec7a4a692406de0efb4cd8856732a0568432e66e6e78f536",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule/default/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/molecule/default/tests/test_default.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dfb684ab3c621ce7530552c4f3fff9d673426eeb0a151e94a9ce2d0cc7e0c0c0",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "83dbb67abbad2c77ee291cb865846bd76f621092896fc0c5a097641adea9b54a",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_repository/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "25d8b3f85309bfb62b9a4f3ada6f26c70802754fc1b1cc784ded0e13d887954d",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0fc6d25efa15c707fee9dac4699b785a11e5f072a11676882e07986edb455330",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "331c6a3f2b829dee5b67c8c4277e4aa738f0d1e671ab1594ed74a0d0df0b52bd",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/.yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5845e18e9f23155f423207df9abac970aed687c638620bc2c9ee06706191054b",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/.travisignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d0667e303d67028269e3db3bb4d85fb55e474b8ae1022d52c1465055a9882ec9",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "764c9716fb4b2538ff9f76f2fb26379c77aa0824e74b4a0ca18629c798e9fb31",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/files/firewalld_fix.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8f436347217d85c16e14d2d53be7432f3a15c6fd4a75e9d4c7a37275c3483be",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e8756e627a585031ab7108da64becdef68409383f7b30a33f46e895fbfc639e4",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/tests/test_default.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2691e209c8b944565e805833760810801e846cf7a344d8f2e038891314546bb4",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/default/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4bcc034edae55f9300642eae3ea77e982dae9656632bcacb248b2dfbd606e0f7",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "86f2daece00328b3bd1ff0bace0c638fc3a05f25355b8572d17eebe8f421066d",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd0ab7231b8f729005d848f69ec636ea06c70dfa2fc1876bf83f43b5d658e339",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/files/firewalld_fix.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8f436347217d85c16e14d2d53be7432f3a15c6fd4a75e9d4c7a37275c3483be",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/tests/test_default.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e1213e26b90e089d55c053a6d3f72439b0a0866aeb398a95c3ed9845c42843d1",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/molecule/virtualbox/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9a9eb8877e78a200f6f0046d25993d415b0008fd08574d8eea492ef3faf6e19a",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d717d5fda13e94c01c2ff3138b2ab85b09886b1d2ce6198d5bcedb5335a4007b",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e9684fa9ac55524170dba14fe1114939e38997544c8df5b834c39a221117eb4",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7bc6d93559a0c3f8cda8e0d7c3e4b0b11d0552c77feeb76e5f804eb5a8fcc115",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_firewall/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da0d6c7f8926e00c9ac8e882dc9d7faf42ca33d58ccf98a1f9b1c54b1d06b2b4",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c327374ae2c31c47ea1fc3d66146abdefa64c6b8f2e80e3cc989bdcd1a04147",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a2b6d74c9ae74c0f1c37e52c67ce37894594f1f097df09ca4427207c5d487965",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/.yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5845e18e9f23155f423207df9abac970aed687c638620bc2c9ee06706191054b",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule/default/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "793b24c8dfb77280d294b4ea8ef3efc9b1b32b26f51a9053e54353939b53c1a6",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule/default/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5a2f333e36cb4717e63a24a548e74e053d6f26393f240e0516f93f006cf2a409",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule/default/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e79af0ac7684196dec7a4a692406de0efb4cd8856732a0568432e66e6e78f536",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule/default/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/molecule/default/tests/test_default.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d82f31e17415a58b273ca94e8916f09268d20f1640f2eb1f9fac145173950de8",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ca1bbc1fb0e2b993a387224b8806f946ba2c227ea1acf5a857a58246f3dcee57",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/tasks/jdk1.8_Debian_Buster.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f22635aab3a33d19827e62621bdb93e663ba8eca0be1642c821b2f55ed0fd58e",
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cassandra_install/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab175532d2786ed4aaa56e8c3ef98bb55df9c3da9fcd5e61840a42471b4dc0a5",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

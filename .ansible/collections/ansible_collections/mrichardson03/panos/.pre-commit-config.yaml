@@ -1,0 +1,44 @@
+repos:
+  - repo: git://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-yaml
+      - id: check-merge-conflict
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+        exclude: ^docs/
+
+  - repo: local
+    hooks:
+      - id: black
+        name: black
+        entry: pipenv run black
+        language: system
+        require_serial: true
+        types_or: [python, pyi]
+
+      - id: isort
+        name: isort
+        entry: pipenv run isort
+        require_serial: true
+        language: system
+        types_or: [python, pyi]
+
+      - id: flake8
+        name: flake8
+        entry: pipenv run flake8
+        require_serial: true
+        language: system
+        types_or: [python, pyi]
+
+      - id: ansible-doc-extractor
+        name: ansible-doc-extractor
+        entry: bash -c 'pipenv run ansible-doc-extractor --template docs/_templates/module.rst.j2 docs/modules plugins/modules/panos*.py'
+        language: system
+        pass_filenames: false
+
+      - id: sync-requirements
+        name: Sync Pipfile to requirements.txt
+        entry: bash -c 'pipenv lock -r >  requirements.txt'
+        language: system
+        pass_filenames: false
